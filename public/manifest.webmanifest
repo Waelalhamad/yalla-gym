@@ -1,0 +1,22 @@
+{
+  "name": "يلا جيم",
+  "short_name": "يلا جيم",
+  "description": "نظامك الشخصي لخسارة الدهون وبناء القوة",
+  "lang": "ar",
+  "dir": "rtl",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0d1017",
+  "theme_color": "#0d1017",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "تمرين اليوم", "url": "/workout", "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }] },
+    { "name": "يومي", "url": "/day", "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }] }
+  ]
+}
